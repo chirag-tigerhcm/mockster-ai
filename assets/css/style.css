@@ -408,6 +408,16 @@ h6 {
   box-shadow: 0 8px 28px rgba(181, 171, 59, 0.45);
 }
 
+#hero .btn-store img {
+  height: 50px;
+  margin: 10px;
+  transition: transform 0.2s ease-in-out;
+}
+
+#hero .btn-store img:hover {
+  transform: scale(1.1);
+}
+
 #hero .btn-get-started:hover {
   background: #206bfb;
   box-shadow: 0 8px 28px rgba(32, 107, 251, 0.45);
